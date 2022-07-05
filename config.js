@@ -9,12 +9,12 @@ const chalk = require('chalk')
 
 // Website Api
 global.APIs = {
-	zenz: 'https://zenzapis.xyz',
+	zenz: 'https://api.neoxr.eu.org/',
 }
 
 // Apikey Website Api
 global.APIKeys = {
-	'https://zenzapis.xyz': 'Your Key',
+	'https://api.neoxr.eu.org/': 'm9IIHgza',
 }
 
 // Other

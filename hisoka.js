@@ -540,11 +540,11 @@ Ketik *nyerah* untuk menyerah dan mengakui kekalahan`
             }
             break
 	    case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-                hisoka.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/74fd634010128be37972c.jpg' }, caption: `*Hallo Kak ${m.pushName}*\n\n *Owner saya Open sewa bot*\n *⭔10k Per Group via dana 1 Bulan*\n *⭔10k via pulsa per 1 Bulan*\n\n*Donasi Donk Terserah mau berapa,Bisa via Dana/pulsa*\n\n *info lebih lanjut, Bisa chat owner saya*\nhttps://wa.me/6285822347348 (*Owner*)\n\n _Awas Lu Bohong_` }, { quoted: m })
+                hisoka.sendMessage(m.chat, { image: { url: '' }, caption: `*Hallo Kak ${m.pushName}*\n\n *Owner saya Open sewa bot*\n *⭔10k Per Group via dana 1 Bulan*\n *⭔10k via pulsa per 1 Bulan*\n\n*Donasi Donk Terserah mau berapa,Bisa via Dana/pulsa*\n\n *info lebih lanjut, Bisa chat owner saya*\nhttps://wa.me/6283800930156 (*Owner*)\n\n _Awas Lu Bohong_` }, { quoted: m })
             }
             break
             case 'sc': {
-                m.reply('https://wa.me/6285822347348')
+                m.reply('gada')
             }
             break
             case 'chat': {
@@ -1146,17 +1146,17 @@ break
                     await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: 'Grub Ofc ArullBotzMD',
-                                    url: 'https://chat.whatsapp.com/LDN0EeJfASs0lbUhJsOJu1'
+                                    displayText: 'Grup Bot',
+                                    url: 'https://chat.whatsapp.com/DDwFYaE7IaL7MDvvhzdpoD'
                                 }
                             }, {
                                 callButton: {
-                                    displayText: 'Number Arull',
-                                    phoneNumber: '+6285822347348'
+                                    displayText: 'Nomor Senz',
+                                    phoneNumber: '+6283800930156'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Donasi Lahh',
+                                    displayText: 'Donasi',
                                     id: 'donasi'
                                 }
                             }, {
@@ -1209,7 +1209,7 @@ break
                                     id: 'sc'
                                 }
                             }]
-                      let txt = `「 *Broadcast ArullBotzMD* 」\n\n${text}`
+                      let txt = `「 *Broadcast Senz Botz* 」\n\n${text}`
                       hisoka.send5ButImg(yoi, txt, hisoka.user.name, global.thumb, btn)
 		}
 		m.reply('*Sukses Broadcast*')
@@ -2726,19 +2726,19 @@ let capt = `⭔ Title: ${judul}
             }
             break
             case 'list': case 'menu': case 'help': case '?': {
-                anu = `Hallo Kak *${pushname}*! 
+                anu = `Hallo Kak *${pushname}* 
 Bot Ini Adalah Beta Multi-Device WhatsApp.
 
 ❏ *Info Creator*
-> Name : *ArullOfc*
-> Nomor : *https://wa.me/6285822347348*
-> Umur : *18*
-> Region : *Indonesia 🇲🇨*
-> Hobyy : *Gtw*
-> Made in : *Kalimantan Selatan*
-> Nama Asli : *Sahrull... Private*
+> Name : *Senz*
+> Nomor : *https://wa.me/6283800930156*
+> Umur : *Secret*
+> Region : *Indonesia*
+> Hobyy : *Turu*
+> Made in : *Sumatera Barat*
+> Runtime : %uptime
 └───────⭓
-~Silahkan Lihat Menu Dibawah^^~
+Silahkan Lihat Menu Dibawah
 ┌──⭓ *Group Menu*
 │
 │⭔ ${prefix}linkgroup
@@ -3039,25 +3039,25 @@ Bot Ini Adalah Beta Multi-Device WhatsApp.
 │⭔ ${prefix}setmenu [option]
 │
 └───────⭓
-_Donasi Ngab Jangan Ngarep Free Mulu_`
+Copyright © By Senz`
                 let btn = [{
                                 urlButton: {
-                                    displayText: 'Grub Bot',
-                                    url: 'https://chat.whatsapp.com/LDN0EeJfASs0lbUhJsOJu1'
+                                    displayText: 'Grup Bot',
+                                    url: 'https://chat.whatsapp.com/DDwFYaE7IaL7MDvvhzdpoD'
                                 }
                             }, {
                                 callButton: {
-                                    displayText: 'Number Owner',
-                                    phoneNumber: '+6285822347348'
+                                    displayText: 'Nomor Owner',
+                                    phoneNumber: '+6283800930156'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Status Bot',
+                                    displayText: 'Status',
                                     id: 'ping'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Donasi Lahh!',
+                                    displayText: 'Donasi',
                                     id: 'donasi'
                                 }  
                             }, {
